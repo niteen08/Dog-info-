@@ -1,0 +1,56 @@
+/* CSS for Dog Containers */
+.dog-container {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* CSS for Images */
+.dog-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Make the image fill the container */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px;
+}
+
+/* CSS for Breed Name */
+.dog-container p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: var(--clr);
+    color: #fff;
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: .75rem 1.5rem;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color .3s;
+  }
+  
+   .ButtonDiv :hover{
+    background-color: black;
+   }
+
+   .ButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   }
